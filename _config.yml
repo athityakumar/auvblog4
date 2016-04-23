@@ -1,17 +1,12 @@
 timezone: Europe/Berlin
 highlighter: pygments
 markdown: redcarpet
-permalink: /post/:title
+permalink: /auvblog4/:title
 
 redcarpet:
   extensions: [autolink]
 
 exclude: [README.md, TODO.md, LICENSE, node_modules, Makefile, Gulpfile.js, package.json]
-
-paginate: 5
-paginate_path: '/blog/:num'
-
-excerpt_separator: "\n\n\n"
 
 # own settings
 name: minddust
